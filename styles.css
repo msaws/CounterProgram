@@ -1,0 +1,29 @@
+#lbl_counterValue{
+
+    display: block;
+    font-size: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.cls_buttons{
+    padding: 10px 15px;
+    background-color: #068bde;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.25em;
+    border-radius: 10px;
+    height: 45px;
+    width: 145px;
+
+}
+
+.cls_buttons:hover{
+    background-color: #045689;
+    cursor: pointer;
+}

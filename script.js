@@ -10,9 +10,11 @@ const btn_increase = document.getElementById("btn_increase");
 // Below we'll define 3 functions, one for each button 
 
 let counter = 0;
+const MAX_COUNTE_VALUE = 50;
 
 //this function will decrease the counter value by 1 on each click
 btn_decrease.onclick = () => {
+
 
     counter--;
     lbl_counterValue.textContent = counter;
